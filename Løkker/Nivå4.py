@@ -10,31 +10,31 @@
 
 
 
-# handleliste = []
+handleliste = []
 
-# while True:
-#     vare = input("Skriv inn varen du vil ha (skriv ferdig for å avslutte): ")
+while True:
+    vare = input("Skriv inn varen du vil ha (skriv ferdig for å avslutte): ")
 
-#     if vare.lower() == "ferdig":
-#             break
+    if vare.upper() == "ferdig":
+            break
     
-#     handleliste.append(vare)
+    handleliste.append(vare)
 
-# print("Du skal handle:")
-# print(handleliste)
-
-
+print("Du skal handle:")
+print(handleliste)
 
 
 
-sum = 0
-antall = (int(input("hvor mange tall vil dere legge sammen? ")))
 
-for i   in range(antall):
-    tall = int(input("Skriv inn et tall: "))
-    sum = sum + tall
 
-print("Total summen er:", sum)
+# sum = 0
+# antall = (int(input("hvor mange tall vil dere legge sammen? ")))
+
+# for i   in range(antall):
+#     tall = int(input("Skriv inn et tall: "))
+#     sum = sum + tall
+
+# print("Total summen er:", sum)
 
 
 
